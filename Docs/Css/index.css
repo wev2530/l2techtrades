@@ -154,8 +154,91 @@ body{
 
 .services{
     width: 100%;
-    height: 1000px;
+    height: fit-content;
     background: #000;
     padding-top: 155PX;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.passOne{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    border: 1px dashed white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 48px;
+    transition: all 0.5s ease-in-out;
+}
+
+.ChallengePass{
+    width: 80%;
+    /* border: 1px solid white; */
+    height: fit-content;
+}
+
+.services h2{
+    color: #42ffa3;
+}
+
+.services p{
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 2px;
+    padding-left: 50px;
+}
+
+.challengeheading1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.expchild{
+    width: 20%;
+    height: 100px;
+    /* border: 1px solid navy; */
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 
+    -5px 5px 10px rgba(0, 0, 0, 0.3),  /* Left shadow */
+     5px 5px 10px rgba(0, 0, 0, 0.3),  /* Right shadow */
+     0px 10px 10px rgba(0, 0, 0, 0.3); /* Bottom shadow */
+}
+
+.exp{
+    width: 100vw;
+    height: fit-content;
+    /* padding: 0 10%; */
+    background: linear-gradient(to bottom, #000 50% , #fff 50%);
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.expMain{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid gold; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.expChead{
+    font-weight: 700;
+    font-size: larger;
 }
